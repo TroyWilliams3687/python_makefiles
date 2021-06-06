@@ -31,6 +31,7 @@ PYPATH?=$(python)
 PY?=$(PYPATH)/python3.9
 
 include Makefile.python
+include Makefile.python.build  # Optional
 
 
 # -----------
